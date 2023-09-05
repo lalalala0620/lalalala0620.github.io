@@ -4,22 +4,25 @@
   
     
     <entry>
-      <title>Categories</title>
-      <link href="/2013/12/24/categories/"/>
-      <url>/2013/12/24/categories/</url>
+      <title>post</title>
+      <link href="/2023/09/05/post/"/>
+      <url>/2023/09/05/post/</url>
       
-        <content type="html"><![CDATA[<p>This post contains 3 categories. Make sure your theme can display all of the categories.</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
-      <categories>
-          
-          <category> Foo </category>
-          
-          <category> Bar </category>
-          
-          <category> Baz </category>
-          
-      </categories>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2023/09/05/index/"/>
+      <url>/2023/09/05/index/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
       
       
     </entry>
