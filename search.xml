@@ -4,26 +4,27 @@
   
     
     <entry>
-      <title>post</title>
-      <link href="/2023/09/05/post/"/>
-      <url>/2023/09/05/post/</url>
+      <title>typora-vue-theme主题介绍</title>
+      <link href="/2018/09/07/PBL-Competition/"/>
+      <url>/2018/09/07/PBL-Competition/</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2023/09/05/index/"/>
-      <url>/2023/09/05/index/</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="Osaka-Institute-of-Technology-New-Taipei-Municipal-Zhonghe-Senior-High-School-and-National-Taipei-University-of-Technology"><a href="#Osaka-Institute-of-Technology-New-Taipei-Municipal-Zhonghe-Senior-High-School-and-National-Taipei-University-of-Technology" class="headerlink" title="Osaka Institute of Technology, New Taipei Municipal Zhonghe Senior High School, and National Taipei University of Technology."></a>Osaka Institute of Technology, New Taipei Municipal Zhonghe Senior High School, and National Taipei University of Technology.</h3><div align="center"><img src="PBL_1.png" width="65%"></div><span id="more"></span><h1 id="Rule"><a href="#Rule" class="headerlink" title="Rule"></a>Rule</h1><p>The rule of this competition is that there is 4 obstacles area on the corner of the field. sand, grass, white rock, and water area respectively. There is a high heel area in the center of the field, so we must overcome these obstacles and catch the red ball as much as possible.</p><h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><p>We used a pixy camera connected to Arduino mega board. We didn’t have to do some image processing, because this camera could help us process the images and send some information to us. Like the width and height of the red ball. About the actuator, we have two 12V DC motors to drive the car and a 7V servo motor that let the catcher can lift and down. An ultrasonic sensor can detect the wall and tell the car to turn around to avoid the wall.</p><h1 id="Design"><a href="#Design" class="headerlink" title="Design"></a>Design</h1><p>We designed a catcher with some ropes just like the table tennis collector, and then this catcher will put the red ball into the container behind the robot.</p><div style="display:inline-block;"> <img width="50%" src="PBL_2.png" alt="Your Image" style="float: left; margin-right: 10px;"> </div><p><img src="/2018/09/07/PBL-Competition/PBL_2.png" alt="test image size"></p><h1 id="Program-Flow"><a href="#Program-Flow" class="headerlink" title="Program Flow"></a>Program Flow</h1><p>We have three steps. First, we used the ultrasonic sensor to check the wall distance. When the car hit the wall, it will turn around. Second, when the camera sees the red ball, it will check whether the ball is in the center of the camera. If not, just turn right or turn left. And then if the Y-axis coordination of the red ball is more than 180, that means, the red ball is right in front of you. Just put down the catcher and get the red ball.</p>]]></content>
       
       
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
       
     </entry>
     

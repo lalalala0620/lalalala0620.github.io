@@ -6,7 +6,7 @@
   <link href="https://lalalala0620.github.io/atom.xml" rel="self"/>
   
   <link href="https://lalalala0620.github.io/"/>
-  <updated>2023-09-05T11:09:51.018Z</updated>
+  <updated>2023-09-06T12:49:56.569Z</updated>
   <id>https://lalalala0620.github.io/</id>
   
   <author>
@@ -17,28 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>post</title>
-    <link href="https://lalalala0620.github.io/2023/09/05/post/"/>
-    <id>https://lalalala0620.github.io/2023/09/05/post/</id>
-    <published>2023-09-05T11:09:51.000Z</published>
-    <updated>2023-09-05T11:09:51.018Z</updated>
+    <title>typora-vue-theme主题介绍</title>
+    <link href="https://lalalala0620.github.io/2018/09/07/PBL-Competition/"/>
+    <id>https://lalalala0620.github.io/2018/09/07/PBL-Competition/</id>
+    <published>2018-09-07T01:25:00.000Z</published>
+    <updated>2023-09-06T12:49:56.569Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Osaka-Institute-of-Technology-New-Taipei-Municipal-Zhonghe-Senior-High-School-and-National-Taipei-University-of-Technology"><a href="#Osaka-Institute-of-Technology-New-Taipei-Municipal-Zhonghe-Senior-High-School-and-National-Taipei-University-of-Technology" class="headerlink" title="Osaka Institute of Technology, New Taipei Municipal Zhonghe Senior High School, and National Taipei University of Technology."></a>Osaka Institute of Technology, New Taipei Municipal Zhonghe Senior High School, and National Taipei University of Technology.</h3><div align="center"><img src="PBL_1.png" width="65%"></div><span id="more"></span><h1 id="Rule"><a href="#Rule" class="headerlink" title="Rule"></a>Rule</h1><p>The rule of this competition is that there is 4 obstacles area on the corner of the field. sand, grass, white rock, and water area respectively. There is a high heel area in the center of the field, so we must overcome these obstacles and catch the red ball as much as possible.</p><h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><p>We used a pixy camera connected to Arduino mega board. We didn’t have to do some image processing, because this camera could help us process the images and send some information to us. Like the width and height of the red ball. About the actuator, we have two 12V DC motors to drive the car and a 7V servo motor that let the catcher can lift and down. An ultrasonic sensor can detect the wall and tell the car to turn around to avoid the wall.</p><h1 id="Design"><a href="#Design" class="headerlink" title="Design"></a>Design</h1><p>We designed a catcher with some ropes just like the table tennis collector, and then this catcher will put the red ball into the container behind the robot.</p><div style="display:inline-block;"> <img width="50%" src="PBL_2.png" alt="Your Image" style="float: left; margin-right: 10px;"> </div><p><img src="/2018/09/07/PBL-Competition/PBL_2.png" alt="test image size"></p><h1 id="Program-Flow"><a href="#Program-Flow" class="headerlink" title="Program Flow"></a>Program Flow</h1><p>We have three steps. First, we used the ultrasonic sensor to check the wall distance. When the car hit the wall, it will turn around. Second, when the camera sees the red ball, it will check whether the ball is in the center of the camera. If not, just turn right or turn left. And then if the Y-axis coordination of the red ball is more than 180, that means, the red ball is right in front of you. Just put down the catcher and get the red ball.</p>]]></content>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Osaka-Institute-of-Technology-New-Taipei-Municipal-Zhonghe-Senior-High-School-and-National-Taipei-University-of-Technology&quot;&gt;&lt;a href=&quot;#Osaka-Institute-of-Technology-New-Taipei-Municipal-Zhonghe-Senior-High-School-and-National-Taipei-University-of-Technology&quot; class=&quot;headerlink&quot; title=&quot;Osaka Institute of Technology, New Taipei Municipal Zhonghe Senior High School, and National Taipei University of Technology.&quot;&gt;&lt;/a&gt;Osaka Institute of Technology, New Taipei Municipal Zhonghe Senior High School, and National Taipei University of Technology.&lt;/h3&gt;&lt;div align=&quot;center&quot;&gt;
+&lt;img src=&quot;PBL_1.png&quot; width=&quot;65%&quot;&gt;
+&lt;/div&gt;</summary>
     
     
     
+    <category term="Markdown" scheme="https://lalalala0620.github.io/categories/Markdown/"/>
     
     
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://lalalala0620.github.io/2023/09/05/index/"/>
-    <id>https://lalalala0620.github.io/2023/09/05/index/</id>
-    <published>2023-09-05T10:49:55.290Z</published>
-    <updated>2023-09-05T10:49:55.290Z</updated>
+    <category term="Typora" scheme="https://lalalala0620.github.io/tags/Typora/"/>
     
-    
-    
-    
+    <category term="Markdown" scheme="https://lalalala0620.github.io/tags/Markdown/"/>
     
   </entry>
   
